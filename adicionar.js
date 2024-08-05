@@ -1,5 +1,7 @@
-let contatos = require('./contatos');
-function adicionarResidencia(contato) {
-    contatos.push(contato);
+let contatos = require('./residencias'); 
+
+function adicionarResidencia(residencia) {
+    residencias.push(residencia);
+
     }
     module.exports = adicionarResidencia;

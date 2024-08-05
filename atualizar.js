@@ -1,5 +1,5 @@
-let contatos = require('./contatos');
+let residencias = require('./residencias');
 function atualizarResidencia(index, novaResidencia) {
-    contatos[index] = novaResidencia;
+    residencias[index] = novaResidencia;
     }
     module.exports = atualizarResidencia;

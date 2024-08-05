@@ -1,6 +1,6 @@
-let contatos = require('./contatos');
+let residencias = require('./residencias');
 function removerResidencia(index) {
-    contatos.splice(index, 1);
+    residencias.splice(index, 1);
 }
 
 module.exports = removerResidencia;

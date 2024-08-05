@@ -29,7 +29,7 @@ switch (opcao) {
     const numero = prompt('Numeros: ');
     const moradores = prompt('Moradores: ');
     adicionarResidencia({ bairro, rua, numero, moradores });
-    console.log('Contato adicionado com sucesso!');
+    console.log('Residência adicionada com sucesso!');
         break;
     case '2':
       listarResidencia()
@@ -46,7 +46,7 @@ switch (opcao) {
 
     atualizarResidencia(index, { bairro: novoBairro, rua:
     novaRua, Numero: novoNumero, moradores: novosMoradores });
-    console.log('Contato atualizado com sucesso!');
+    console.log('Residência atualizada com sucesso!');
         break;
     case '4':
       removerResidencia()
